@@ -9,10 +9,15 @@
 div.caixa-principal {
     height:100vh;
     width: 100%;
-    background-image: url(img/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png);
-    background-repeat: no-repeat;
-    background-position:right;
     background-color: #191919;
+}
+
+img.foto-pg {
+    width: 470
+    px;
+    position: absolute;
+    margin-left: 65%;
+    top: 50%;
 }
 
 nav {
@@ -34,7 +39,7 @@ nav {
     color: #f9004d;
 }
 
-li{
+li {
     color:white;
     display: inline-block;
     margin: 20px;
@@ -51,4 +56,34 @@ li > a:hover {
     cursor: pointer;
     color: #f9004d;
     transition: 0.5s;
+}
+
+div.meu-nome {
+    position: absolute;
+    top: 50%;
+    margin-left: 7%;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+}
+
+h1 > span {
+    color:#f9004d;
+}
+
+div.meu-nome > h3 {
+    color: white;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 0px;
+    background-color: black;
+}
+section > img {
+    width:400px;
 }
