@@ -97,7 +97,7 @@ section > div > h2 {
 }
 
 section > div > p {
-    color:#ffffff;
+    color:#e2b9c6;
     font-size: 24px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -119,4 +119,56 @@ section > div > button:hover {
     transition: 0.5s;
     cursor: pointer;
 }
+
+div.projetos {
+    background-color: #191919;
+}
+
+div.projetos > h2 {
+    color:white;
+    font-size: 75px;
+    text-align: center;
+}
+
+div.card {
+    background-color: black;
+    height:400px;
+    width: 335px;
+    border-radius:20px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+div.card > img {
+    height: 100px;
+}
+
+div.card > h5 {
+    color: white;
+    font-size: 24px;
+    font-family: "Kanit", sans-serif;
+    font-weight: normal;
+
+}
+
+div.card > p {
+    color:#e2b9c6;
+    margin: 20px 0px;
+}
+
+div.card > a {
+    color: white;
+    text-decoration: none;
+    background-color: #f9004d;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+div.card > a:hover {
+    cursor: pointer;
+    background-color:transparent;
+    border: 2px solid #f9004d;
+    transition: 0.5s;
+}
+
 
