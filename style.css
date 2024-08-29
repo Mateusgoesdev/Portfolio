@@ -180,4 +180,54 @@ div.card-projetos {
     margin-top: 100px;
 }
 
+footer {
+    text-align: center;
+    background-color:#000;
+    margin-top: 80px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+footer > h5 {
+    color: white;
+    font-size:24px;
+    padding-top:30px;
+}
+
+footer > p {
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 14px;
+    font-size:18px;
+}
+
+div.social {
+    display: flex;
+    gap: 20px;
+}
+
+div.social img {
+    height:40px;
+    align-items: center;
+    border-radius: 50%;
+}
+
+div.social a {
+    background-color: #f9004d;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+div.social  > a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
 
